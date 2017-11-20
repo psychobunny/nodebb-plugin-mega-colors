@@ -9,7 +9,6 @@ $('document').ready(function () {
 				onShow: function (el) {
 					$(el).show();
 					return false;
-					controls.updateTextareaSelection(text, start, end);
 				},
 				onHide: function (el) {
 					$(el).hide();
